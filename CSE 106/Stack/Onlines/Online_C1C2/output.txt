@@ -1,0 +1,13 @@
+-------------Testing Visible Buildings-------------
+Test Case 1:
+Visible buildings: 5 8 10 
+-------------------
+Test Case 2:
+Visible buildings: 1 3 5 8 
+-------------------
+Test Case 3:
+Visible buildings: 5 
+-------------------
+Test Case 4:
+Visible buildings: 10 
+-------------------

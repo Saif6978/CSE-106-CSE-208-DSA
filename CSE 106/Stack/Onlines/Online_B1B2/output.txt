@@ -1,0 +1,19 @@
+-------------Testing Fibonacci Call Counting-------------
+Test Case 1:
+The Fibonacci function is called 1 times for n = 1
+-------------------
+Test Case 2:
+The Fibonacci function is called 1 times for n = 2
+-------------------
+Test Case 3:
+The Fibonacci function is called 9 times for n = 5
+-------------------
+Test Case 4:
+The Fibonacci function is called 41 times for n = 8
+-------------------
+Test Case 5:
+The Fibonacci function is called 67 times for n = 9
+-------------------
+Test Case 6:
+The Fibonacci function is called 109 times for n = 10
+-------------------
