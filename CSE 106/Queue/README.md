@@ -393,16 +393,21 @@ Queue/
 │
 └── Online/
     ├── A1A2/
-    │   ├── problem.pdf
-    │   └── solution.cpp
+    │   ├── Online_A1A2_Queue.pdf
+    │   ├── QueueLinkedList.h
+    │   └── a1a2.cpp          # Interleaving Two Halves
     │
     ├── B1B2/
-    │   ├── problem.pdf
-    │   └── solution.cpp
+    │   ├── Online_B1B2_Queue.pdf
+    │   ├── QueueLinkedList.h
+    │   ├── StackUsingQueue.h
+    │   └── online.cpp        # Palindrome via Queue and Stack
     │
     └── C1C2/
-        ├── problem.pdf
-        └── solution.cpp
+        ├── Online_CSE106_Queue_C1_C2.pdf
+        ├── QueueLinkedList.h
+        ├── StackUsingQueue.h
+        └── c1c2.cpp          # Sorting a Queue using a Stack
 ```
 
 ### Dependency relationship

@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <climits>
 #include <stdexcept>
 
 #define MAX_CAPACITY 100  //Defines the maximum capacity of the heap
@@ -127,9 +128,8 @@ public:
     //Deletes the element at index i
     void deleteKey(int i)
     {
-        increaseKey(i,INT_MAX);
-        int x = extractMax();
-        /**Write your code here**/
+        increaseKey(i, INT_MAX);
+        extractMax();
     }
 
     //Prints the heap's content to the output file

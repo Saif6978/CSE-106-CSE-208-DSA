@@ -1,35 +1,37 @@
-#include<iostream>
-#include"StackUsingQueue.h"
-bool palindrome(Queue que){
+#include <iostream>
+#include "StackUsingQueue.h"
+using namespace std;
+
+bool palindrome(Queue que) {
     Stack st;
-    int n=que.length();
-    for(int i=0;i<n;i++){
+    int n = que.length();
+    for (int i = 0; i < n; i++) {
         st.push(que.peek());
         que.enqueue(que.peek());
-        int p=que.dequeue();
+        que.dequeue();
     }
-    while(!que.isEmpty()){
-        if(st.top()!=que.peek()){
+    while (!que.isEmpty()) {
+        if (st.top() != que.peek()) {
             return false;
         }
-        int x=que.dequeue();
-        int p=st.pop();
+        que.dequeue();
+        st.pop();
     }
     return true;
 }
-int main(){
+
+int main() {
     int x;
-    cin >> x;
+    if (!(cin >> x)) return 0;
     Queue que;
-    while(x--){
+    while (x--) {
         char p;
         cin >> p;
         que.enqueue(p);
     }
-    if(palindrome(que)){
+    if (palindrome(que)) {
         cout << "True" << endl;
-    }
-    else{
+    } else {
         cout << "False" << endl;
     }
     return 0;

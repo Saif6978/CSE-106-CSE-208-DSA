@@ -119,17 +119,20 @@ Heaps/
 │   └── output.txt
 │
 └── Online/
-    ├── A1_A2/
-    │   ├── problem.pdf
-    │   └── solution.cpp
+    ├── A1A2/
+    │   ├── Online on Heaps (A1_A2).docx.pdf
+    │   ├── MaxHeap.h
+    │   └── a1a2.cpp
     │
-    ├── B1_B2/
-    │   ├── problem.pdf
-    │   └── solution.cpp
+    ├── B1B2/
+    │   ├── Online on Heap B1-B2.pdf
+    │   ├── MaxHeap.h
+    │   └── 2205119.cpp
     │
-    └── C1_C2/
-        ├── problem.pdf
-        └── solution.cpp
+    └── C1C2/
+        ├── Online on Heaps (C1_C2).pdf
+        ├── MaxHeap.h
+        └── c1c2.cpp
 ```
 
 All solution files use the custom heap implementation:
