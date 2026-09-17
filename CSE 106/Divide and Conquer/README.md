@@ -22,15 +22,15 @@ Divide and Conquer/
 │   └── 2205119.cpp
 │
 └── Online/
-    ├── A1_A2/
+    ├── A1A2/
     │   ├── Online A1_A2 Divide and Conquer.pdf
     │   └── a1a2.cpp
     │
-    ├── B1_B2/
+    ├── B1B2/
     │   ├── Online B1_B2 Divide and Conquer.pdf
-    │   └── b1b2.cpp
+    │   └── 2205119.cpp
     │
-    └── C1_C2/
+    └── C1C2/
         ├── Online C1_C2 Divide and Conquer.pdf
         └── c1c2.cpp
 ```

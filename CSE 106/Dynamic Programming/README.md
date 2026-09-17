@@ -121,18 +121,17 @@ Dynamic Programming/
 │   └── 2205119.cpp
 │
 └── Online/
-    │
-    ├── A1_A2/
+    ├── A1A2/
     │   ├── Online A1_A2.pdf
-    │   └── 2205119.cpp
+    │   └── a1a2.cpp
     │
-    ├── B1_B2/
+    ├── B1B2/
     │   ├── Online B1_B2.pdf
     │   └── 2205119.cpp
     │
-    └── C1_C2/
+    └── C1C2/
         ├── Online C1_C2.pdf
-        └── 2205119.cpp
+        └── c1c2.cpp
 ```
 
 ---

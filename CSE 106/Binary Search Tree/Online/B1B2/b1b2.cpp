@@ -33,7 +33,6 @@ int main(){
 
     char option;
     int val;
-    int a, b;
 
     Node *root = NULL;
 

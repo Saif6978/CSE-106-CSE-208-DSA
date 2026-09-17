@@ -254,7 +254,6 @@ void move_and_shift(ArrayList *list, int pos)
     if (pos > new_size) pos = new_size;
 
     // Insert the saved value at position `pos`
-    int old_current = list->current;          // save current cursor (not really needed)
     if (pos == 0)
         list->current = -1;
     else

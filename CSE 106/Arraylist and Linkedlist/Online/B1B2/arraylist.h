@@ -232,7 +232,7 @@ void swap_with(ArrayList* list,int n){
 }
 
 void discard(ArrayList* list){
-    int p=remove_at_current(list);
+    remove_at_current(list);
     prev(list);
 }
 

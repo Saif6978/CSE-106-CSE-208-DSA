@@ -37,11 +37,11 @@ int main()
         }
         else if (func == 2)
         {
-            int value = remove_at_current(&list);
+            remove_at_current(&list);
         }
         else if (func == 3)
         {
-            int ret = find(&list, param);
+            find(&list, param);
         }
         else if (func == 4)
         {
@@ -61,7 +61,7 @@ int main()
         }
         else if (func == 8)
         {
-            int pos = get_current_position(&list);
+            get_current_position(&list);
         }
         else if (func == 9)
         {
@@ -69,11 +69,11 @@ int main()
         }
         else if (func == 10)
         {
-            int len = get_size(&list);
+            get_size(&list);
         }
         else if (func == 11)
         {
-            int value = get_current_element(&list);
+            get_current_element(&list);
         }
         else if (func == 12)
         {

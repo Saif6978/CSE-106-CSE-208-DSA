@@ -53,7 +53,7 @@ Arraylist and Linkedlist/
 │   ├── in.txt
 │   └── out.txt
 │
-├── online/
+├── Online/
 │   │
 │   ├── A1A2/
 │   │   ├── arraylist.h

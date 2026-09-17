@@ -31,7 +31,7 @@ void findSecondLargest(int arr[], int n) {
 }
 
 int main() {
-	int T, t, n, i, second;
+	int T, t, n, i;
 	int *arr;
 	FILE *fin, *fout;
 	// Redirect input and output streams

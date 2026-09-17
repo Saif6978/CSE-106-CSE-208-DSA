@@ -9,9 +9,7 @@
 
 Given **n** points on a two-dimensional plane, the cost of connecting two points is defined as their **Manhattan distance**:
 
-[
-|x_1 - x_2| + |y_1 - y_2|
-]
+$$|x_1 - x_2| + |y_1 - y_2|$$
 
 The objective is to connect every point so that:
 
@@ -47,9 +45,7 @@ For this problem, **Prim's Algorithm** is the better choice.
 
 A complete graph with **n** vertices contains
 
-[
-\frac{n(n-1)}{2}
-]
+$$\frac{n(n-1)}{2}$$
 
 edges.
 

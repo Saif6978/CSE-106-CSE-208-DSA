@@ -11,7 +11,7 @@ void bfs(vector<vector<int>>& graph,vector<int>& arr,int vertex){
     while(!que.empty()){
         int curr=que.front();
         que.pop();
-        for(int i=1;i<arr.size();i++){
+        for (size_t i = 1; i < arr.size(); i++) {
             if(arr[i]==0 && graph[curr][i]==1){
                 arr[i]=1;
                 que.push(i);
@@ -38,8 +38,12 @@ int main(){
             bfs(graph1,arr,i);
         }
     }
-    cout << que.size()-1 << endl;
-    int c=que.front();
+    if (que.empty()) {
+        cout << 0 << endl;
+        return 0;
+    }
+    cout << que.size() - 1 << endl;
+    int c = que.front();
     que.pop();
     while(!que.empty()){
         cout << c << " " << que.front() << endl;

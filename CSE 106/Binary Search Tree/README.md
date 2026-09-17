@@ -386,20 +386,20 @@ Binary Search Tree/
 │   └── output.txt
 │
 └── Online/
-    ├── A1_A2/
+    ├── A1A2/
     │   ├── bst.h
     │   ├── a1a2.cpp
-    │   └── input.txt
+    │   └── A1_A2 Online.pdf
     │
-    ├── B1_B2/
+    ├── B1B2/
     │   ├── bst.h
     │   ├── b1b2.cpp
-    │   └── input.txt
+    │   └── B1_B2 Online.pdf
     │
-    └── C1_C2/
+    └── C1C2/
         ├── bst.h
         ├── c1c2.cpp
-        └── input.txt
+        └── C1_C2 Online.pdf
 ```
 
 All online problems reuse the same **bst.h** implementation and extend it with additional functionality.

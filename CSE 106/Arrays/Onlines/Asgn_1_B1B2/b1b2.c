@@ -19,7 +19,7 @@ void countInversion(int arr[], int n) {
 }
 
 int main() {
-	int T, t, n, i, inv;
+	int T, t, n, i;
 	int *arr;
 	FILE *fin, *fout;
 	// Redirect input and output streams

@@ -16,19 +16,22 @@ The solutions demonstrate fundamental graph algorithms including **Breadth-First
 Graphs/
 │
 ├── Assignment/
-│   └── Space Stations
-│       ├── BFS (Adjacency Matrix)
-│       └── DFS (Adjacency List)
+│   ├── Assignment 5_ Graphs.pdf
+│   ├── bfs.cpp           # Space Stations (Adjacency Matrix BFS)
+│   └── dfs.cpp           # Space Stations (Adjacency List DFS)
 │
 └── Online/
-    ├── A1_A2/
-    │   └── Prerequisite Courses
+    ├── A1A2/
+    │   ├── CSE 106 - Online A1_A2.pdf
+    │   └── a1a2.cpp      # Prerequisite Courses (Reverse Graph BFS)
     │
-    ├── B1_B2/
-    │   └── Prison Escape
+    ├── B1B2/
+    │   ├── CSE 106 - Online B1_B2.pdf
+    │   └── 2205119.cpp   # Prison Escape (2D Grid Reachability)
     │
-    └── C1_C2/
-        └── Module Dependencies
+    └── C1C2/
+        ├── CSE 106 - Online C1_C2(1).pdf
+        └── c1c2.cpp      # Module Dependencies (Kahn's Topological Sort)
 ```
 
 ---
