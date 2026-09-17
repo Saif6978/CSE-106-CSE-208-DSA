@@ -128,8 +128,4 @@ cd "SSSP/A1A2" && g++ -std=c++17 -O2 main.cpp -o sssp_a && ./sssp_a < 2.txt && c
 | **Binomial Heap Union** | Merge Priority Queues | $\mathcal{O}(\log N)$ | $\mathcal{O}(\log N)$ |
 | **Knapsack FPTAS** | $(1 - \epsilon)$ Approximation | $\mathcal{O}(n^3 / \epsilon)$ | $\mathcal{O}(n^2 / \epsilon)$ |
 
----
 
-## 📄 Academic Integrity & License
-
-This codebase was developed as part of academic coursework for **CSE 208: Data Structures & Algorithms II** at Bangladesh University of Engineering and Technology (BUET). All code is maintained for educational reference, benchmarking, and study.
